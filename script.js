@@ -1,14 +1,14 @@
 const Color = {
     GREEN: 0,
     RED: 1,
-    YELLOW: 2,
+    ORANGE: 2,
     BLUE: 3,
 };
 
 const colorElements = {
     [Color.GREEN]: document.querySelector('.green'),
     [Color.RED]: document.querySelector('.red'),
-    [Color.YELLOW]: document.querySelector('.yellow'),
+    [Color.ORANGE]: document.querySelector('.orange'),
     [Color.BLUE]: document.querySelector('.blue'),
 };
 
