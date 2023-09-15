@@ -14,7 +14,7 @@ body {
 .genius {
     display: grid;
     grid-template-areas: 'green red'
-    'yellow blue';
+    'orange blue';
     grid-gap: 10px;
     border: 1px solid #ffffff;
     background-color: #ffffff;
@@ -35,9 +35,9 @@ body {
     border-top-right-radius: 100%;
 }
 
-.yellow {
-    grid-area: yellow;
-    background-color: yellow;
+.orange {
+    grid-area: orange;
+    background-color: orange;
     border-bottom-left-radius: 100%;
 }
 
