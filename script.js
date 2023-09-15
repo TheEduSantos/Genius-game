@@ -64,7 +64,7 @@ const nextLevel = () => {
 };
 
 const gameOver = () => {
-    alert(`Pontuação: ${score}!\nVocê perdeu o jogo!\nClique em OK para iniciar um novo jogo`);
+    alert(`Score: ${score}!\nYou lost the game!\nClick OK to start a new game`);
     order = [];
     clickedOrder = [];
 
@@ -77,10 +77,8 @@ const playGame = () => {
     nextLevel();
 };
 
-// Adiciona event listeners para os cliques nas cores
 Object.values(Color).forEach((color) => {
     colorElements[color].addEventListener('click', () => handleColorClick(color));
 });
 
-// Inicia o jogo
 playGame();
